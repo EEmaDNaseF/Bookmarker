@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <div class="container  shadow-lg my-4 p-5 rounded-4" >
+
+        <h1 class="text-center mb-5">Bookmarker</h1>
+        <hr>
+        <div>
+            <label for="siteName">Site Name</label>
+            <input id="siteName" type="text" class="form-control my-3" placeholder="Bookmark Name">
+        </div>
+        
+        <div>
+            <label for="siteUrl">Site URL</label>
+            <input id="siteUrl" type="text" class="form-control my-3" placeholder="Website URL">
+        </div>
+        <button  class="btn btn-outline-primary my-3 d-block m-auto" id="addProduuct" onclick="addProduct()" >Submit</button>
+
+
+    </div>
+    
+    <div class="container my-5 shadow">
+
+        <table class="table text-center table-hover">
+            <thead>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </thead>
+            <tbody id="demo">
+
+            </tbody>
+        </table>
+
+        
+    </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
